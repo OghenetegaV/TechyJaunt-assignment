@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    margin-bottom: 30px;
+    font-family: Arial;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    background-color: green;
+    color: white;
+}
+
+nav {
+    padding: 15px;
+ }
+
+nav a {
+    padding: 12px;
+    color: green;
+    text-decoration: none;
+}
+
+main {
+    margin: 0 10px;
+}
+
+#picture {
+    max-width: 500px;
+}
+
+#picture p {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+form div {
+    margin: 15px;
+}
+
+main div {
+    margin-bottom: 10px;
+}

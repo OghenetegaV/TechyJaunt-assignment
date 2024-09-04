@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechyJaunt</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My First Webpage</h1>
+    </header>
+
+    <nav>
+        <a href="#webpage_contents">Webpage Contents</a>
+        <a href="#table">Information Table</a>
+        <a href="#form">Contact Form</a>
+    </nav>
+
+    <main>
+        <div id="picture">
+            <img src="/Beautiful-island-with-sunset-landscape-vector-01.jpg" alt="Beautiful-island-with-sunset-landscape">
+            <p>This is a paragragh describing the content of the webpage. It explains the purpose of the page and provides some basic information about what users can expect to find.</p>
+            <a href="https://www.techyjaunt.com/" target="_blank">Visit TechyJaunt</a>
+        </div>
+
+        <br>
+
+        <div id="webpage_contents">
+            <h1>Webpage Contents</h1>
+            <ul>
+                <li>Introduction</li>
+                <li>Table of Information</li>
+                <li>Contact Form</li>
+            </ul>
+        </div>
+
+        <br>
+
+        <div id="table">
+            <table>
+                <h1>Information Table</h1>
+                <thead>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Quantity</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pens</td>
+                        <td>Blue Ink Pens</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Notebooks</td>
+                        <td>Spiral-bound Notebooks</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Markers</td>
+                        <td>Permanent Markers</td>
+                        <td>2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <br>
+
+        <form action="" id="form">
+            <h1>Contact Form</h1>
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <div>
+                Gender: 
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male" required>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female" required>
+            </div>
+            <div>
+                <label for="subscribe">Subscribe: </label>
+                <input type="checkbox" name="subscribe" id="subscribe">Yes, I want to subscribe
+            </div>
+            <div>
+                <label for="qty">Number of Items: </label>
+                <input type="number" name="qty" id="qty" min="1" required>
+            </div>
+            <div>
+                <label for="date">Date: </label>
+                <input type="date" name="date" id="date" required>
+            </div>
+            <div>
+                <label for="message"><p>Message</p> </label>
+                <textarea id="w3review" name="w3review" rows="4" cols="50"> </textarea>
+            </div>
+            <button>Submit</button>
+        </form>
+
+    </main>
+</body>
+</html>
